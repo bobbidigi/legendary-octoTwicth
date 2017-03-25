@@ -29,9 +29,9 @@ $(document).ready(function() {
     }
  
  if (status=='offline'){
-     $('#col').append('<div class="OFF">' +uLogo + namelink + '<span class="offline"> (offline)</span> <br><hr><br></div>');
+     $('#col').append('<div class="OFF">' +uLogo + namelink + '<span class="offline"> (offline) </span> <br><hr><br></div>');
    }else {
-     $('#col').append('<div class="ON">' +uLogo + namelink + 'now playing' + gamelink + '<span class="online">(Online)</span>'+'<br><hr><br></div>');
+     $('#col').append('<div class="ON">' +uLogo + namelink + 'now playing' + gamelink + '<span class="online">(Online) </span>'+'<br><hr><br></div>');
      // $('#col').append(uLogo + namelink + 'now playing' + gamelink + '<span class="online">(Online)</span>'+'<br><hr><br>');
      // console.log(game);
    }
@@ -44,7 +44,7 @@ $(document).ready(function() {
    
       
   if (data.status==404&&data.logo==undefined)
-       $('#col').append('<div class="OFF">' + '<i class="fa fa-question-circle fa-3x" aria-hidden="true"></i>' + '<a href="https://www.twitch.tv/' + data.name + '" target="_blank" >' +data.display_name + '</a>' + '<span class="offline">(404)</span>' + '<br><hr><br></div>');
+       $('#col').append('<div class="OFF">' + '<i class="fa fa-question-circle fa-3x" aria-hidden="true"></i>' + '<a href="https://www.twitch.tv/' + data.name + '" target="_blank" >' +data.display_name + '</a>' + '<span class="offline">[404]</span>' + '<br><hr><br></div>');
       
       // console.log(data.status);
   
