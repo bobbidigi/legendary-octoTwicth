@@ -1,0 +1,126 @@
+body {
+ background: url('https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2016/12/twitch-796x448.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+nav{
+  margin:auto;
+}
+nav ul{
+  margin: auto;
+  padding: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+
+li{
+  margin:auto;
+  color:white;
+  display: inline-block;
+  max-height:10px;
+  text-align: center;
+  font-weight: 50;
+  font-size: 50px;
+  width: 80px;  
+  background-color:gray;
+  border: 2px solid #231049;
+  border-radius: 10px;
+}
+
+li:hover{
+  cursor: pointer;
+}
+h1 {
+  font-size: 50px;
+  color:white;
+}
+
+a, a:hover {
+  color: purple;
+  text-decoration:none;
+  padding:25px;
+}
+
+img {
+  border-radius:30%;
+  height: 55px;
+  width: 55px;
+  
+}
+
+input {
+  border: 0px;
+}
+.someButton{
+  
+}
+.button {
+  border: 0;
+  margin: auto auto auto auto;
+  text-align: center;
+}  
+.mainBox {
+  font-family: 'Oswald', sans-serif;
+  width: 700px;
+  margin: auto auto auto auto;
+  text-align: center;
+  background: url('https://web-cdn.ttvnw.net/images/xarth/bg_glitch_pattern.png')  center center fixed;
+  opacity:.95;
+  border-radius:20px;
+}
+/* .spacer{ 
+  margin-left:2px;
+}*/
+#col{
+  background-color:white;
+  opacity:.7;
+}
+.container {
+  text-align: left;
+}
+
+.col {
+  padding:50px;
+  font-size: 18px;
+  border-radius:5px;
+  
+}
+
+.colfirst {
+  padding: 0px 25px 25px 25px;
+}
+
+.colsearch {
+  font-size: 20px;
+}
+.offline{
+  background-color:white;
+  color:red;
+  float:right;
+  font-size:15px;
+  margin-top: 30px;
+/*   margin-bottom: -30px; */
+  border-style: solid;
+  border-width: 1px 6px 1px 1px;
+  border-radius:8px;
+}
+.online{
+  background-color:white;
+  color:blue;
+  float:right;
+  font-size:15px;
+  margin-top: 30px;
+/*   margin-bottom: -30px; */
+  border-style: solid;
+  border-width: 1px 6px 1px 1px;
+  border-radius:8px;  
+}
+.hidden{
+  show:none;
+  display:hidden;
+}
