@@ -20,9 +20,9 @@ $.getJSON("https://wind-bow.gomix.me/twitch-api/users/"+ streamer +"?callback=?"
                
        
   if (data.logo==undefined) {
-        uLogo='<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/xarth/404_user_70x70.png">';
+        uLogo='<img class="img-responsive" src="https://static-cdn.jtvnw.net/jtv_user_pictures/xarth/404_user_70x70.png">';
         }else{
-        uLogo='<img src="'+data.logo+'">';
+        uLogo='<img class="img-responsive" src="'+data.logo+'">';
     }
  
  if (status=='offline'){

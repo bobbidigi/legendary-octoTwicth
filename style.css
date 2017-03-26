@@ -13,6 +13,9 @@ body {
   opacity:.95;
   border-radius:20px;
 }
+.container {
+  text-align: left;
+}
 h1 {
   font-size: 50px;
   color:white;
@@ -50,50 +53,46 @@ li#all{
 li:hover{
   cursor: pointer;
 }
-
-
+div #col:first-child {
+  opacity: .99;
+margin-top: -5px;
+    z-index: 1;
+}
+#col{
+  background-color:white;
+  opacity:.1;
+}
+img {
+  border-radius:30%;
+/*  height: 2%;*/
+  max-height: 55px;
+/*  z-index: 1;*/
+  float: left;    
+}
+i {
+ color:blueviolet;
+    float:left;
+}
 a, a:hover {
   color: purple;
   text-decoration:none;
-  padding:25px;
+  padding-left:25px;
+  padding-right:25px;
   font-weight: bolder;
   letter-spacing: 2px;
   z-index: 1;
 }
-
-img {
-  border-radius:30%;
-  height: 55px;
-  width: 55px;
-  z-index: 1;
-}
-
 input {
   border: 0px;
 }
 .someButton{
   
 }
-
-
-div #col:first-child {
-  opacity: .99; 
-}
-#col{
-  background-color:white;
-  opacity:.1;
-}
-.container {
-  text-align: left;
-}
-
 .col {
   padding:50px;
   font-size: 18px;
-  border-radius:5px;
-  
+  border-radius:5px; 
 }
-
 .colfirst {
   padding: 0px 25px 25px 25px;
 }
@@ -106,7 +105,7 @@ div #col:first-child {
   color:brown;
   float:right;
   font-size:15px;
-  margin-top: 30px;
+/*  margin-top: 30px;*/
   border-style: solid;
   border-width: 0px 1px;
   border-radius:10px;
@@ -118,7 +117,7 @@ div #col:first-child {
   color:cornflowerblue;
   float:right;
   font-size:15px;
-  margin-top: 30px;
+/*  margin-top: 30px;*/
   border-style: solid;
   border-width: 0px 1px;
   border-radius:10px;
