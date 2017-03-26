@@ -3,42 +3,54 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-  
+    background-size: cover;  
+}
+.mainBox {
+  font-family: 'Oswald', sans-serif;
+  margin: auto auto auto auto;
+  text-align: center;
+  background: url('https://web-cdn.ttvnw.net/images/xarth/bg_glitch_pattern.png')  center center fixed;
+  opacity:.95;
+  border-radius:20px;
+}
+h1 {
+  font-size: 50px;
+  color:white;
 }
 nav{
   margin:auto;
 }
 nav ul{
   margin: auto;
-  padding: 50px;
+  padding: 0px 10px;
   list-style-type: none;
   text-align: center;
 }
-
-
-
 li{
-  margin:auto;
+  margin:0px 10px;
   color:white;
   display: inline-block;
-  max-height:10px;
   text-align: center;
-  font-weight: 50;
-  font-size: 50px;
+  font-size: 15px;
+	letter-spacing: 2px;
   width: 80px;  
-  background-color:gray;
-  border: 2px solid #231049;
+/*  background-color:gray;*/
   border-radius: 10px;
+}
+li#off{
+	background-color:rgba( 208, 25, 25, 0.561);
+}
+li#on{
+	background-color:cornflowerblue;
+}
+li#all{
+	background-color:rgba( 114, 24, 209, 0.727 );
 }
 
 li:hover{
   cursor: pointer;
 }
-h1 {
-  font-size: 50px;
-  color:white;
-}
+
 
 a, a:hover {
   color: purple;
@@ -62,20 +74,8 @@ input {
 .someButton{
   
 }
-.button {
-  border: 0;
-  margin: auto auto auto auto;
-  text-align: center;
-}  
-.mainBox {
-  font-family: 'Oswald', sans-serif;
-  width: 700px;
-  margin: auto auto auto auto;
-  text-align: center;
-  background: url('https://web-cdn.ttvnw.net/images/xarth/bg_glitch_pattern.png')  center center fixed;
-  opacity:.95;
-  border-radius:20px;
-}
+
+
 div #col:first-child {
   opacity: .99; 
 }
