@@ -20,19 +20,19 @@ $.getJSON("https://wind-bow.gomix.me/twitch-api/users/"+ streamer +"?callback=?"
                
        
   if (data.logo==undefined) {
-        uLogo='<img class="img-responsive" src="https://static-cdn.jtvnw.net/jtv_user_pictures/xarth/404_user_70x70.png">';
+        uLogo='<div id="logo" class="col-sm-4 align-left"><img class="img-responsive" src="https://static-cdn.jtvnw.net/jtv_user_pictures/xarth/404_user_70x70.png">'+namelink+'</div>';
         }else{
-        uLogo='<img class="img-responsive" src="'+data.logo+'">';
+        uLogo='<div id="logo" class="col-sm-4 align-left"><img class="img-responsive" src="'+data.logo+'">'+namelink+'</div>';
     }
  
  if (status=='offline'){
-     $('#col').append('<div class="OFF">' +uLogo + namelink + '<span class="offline"> (offline) </span> <br><hr><br></div>');
+     $('#col').append('<div class="OFF">'+uLogo+'<span class="offline"> (offline) </span> <br><hr><br></div>');
    }else {
-     $('#col').append('<div class="ON">' +uLogo + namelink + 'now playing' + gamelink + '<span class="online">(Online) </span>'+'<br><hr><br></div>');
+     $('#col').append('<div class="ON">' +uLogo +'now playing' + gamelink + '<span class="online">(Online) </span>'+'<br><hr><br></div>');
    }
    
   if (data.status==404&&data.logo==undefined)
-       $('#col').append('<div class="OFF">' + '<i class="fa fa-question-circle fa-3x" aria-hidden="true"></i>' + '<a href="https://www.twitch.tv/' + data.name + '" target="_blank" >' +data.display_name + '</a>' + '<span class="offline">[404]</span>' + '<br><hr><br></div>');
+       $('#col8').append('<div class="OFF col-md-3">' + '<i class="fa fa-question-circle fa-4x" aria-hidden="true"></i>' + '<a href="https://www.twitch.tv/' + data.name + '" target="_blank" >' +data.display_name + '</a>' + '<span class="offline">[404]</span>' + '<br><hr><br></div>');
   
   });
    });
