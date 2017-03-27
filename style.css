@@ -65,11 +65,12 @@ div #col:first-child {
   opacity:.1;
 }
 #logo{
-    float:left;
+/*    float:left;*/
 /*    text-align: left;*/
 /*    max-height: 55px;  */
 }
 img{
+/*    float:left;*/    
 /*  border-radius:30%;*/
 /*  margin:auto;*/
 /*  max-width: 100%;*/
