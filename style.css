@@ -13,6 +13,9 @@ body {
   opacity:.95;
   border-radius:20px;
 }
+#row1{
+    max-height: 50px;
+}
 .container {
   text-align: left;
 }
@@ -54,7 +57,7 @@ li:hover{
 }
 div #col:first-child {
   opacity: .99;
-margin-top: -5px;
+/*margin-top: -5px;*/
     z-index: 1;
 }
 #col{
@@ -63,12 +66,14 @@ margin-top: -5px;
 }
 #logo{
     float:left;
-    
+/*    text-align: left;*/
+/*    max-height: 55px;  */
 }
-img {
-  border-radius:30%;
-  margin:auto;
-  
+img{
+/*  border-radius:30%;*/
+/*  margin:auto;*/
+/*  max-width: 100%;*/
+/*  height: auto;    */
 /*  max-height: 55px;*/
 /*  z-index: 1;*/    
 }
