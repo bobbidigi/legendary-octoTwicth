@@ -1,69 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	 <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
-    <meta name="description" content="Portfolio"     />
-    <meta name="title" content="Portfolio"     />
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="TWITCH GUI"     />
     <meta name="url" content="http://www.allentowngroup.com/about-robert-allen/"   />
     <meta name="og:image" content="img/ra-logo40"   />
     <meta name="author" content="Robert Allen"      />
-	<title>legendary OctoTwitch</title>
-<!--	<script src="JS/jquery-3.1.0.min.js"></script>-->
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src="script.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-	
-<div class="container">
-  <div class = 'mainBox row'>
-  <div class="col-md-12">
-   <h1>Twitch API</h1>
-   <nav role="navigation" class="nav">
-    <ul class="status">
-      <li id="all" class="button">
-         All
-      </li>
-      <li id="on" class="button">
-        Online
-      </li>
-      <li id="off" class="button">
-         Offline
-      </li>
-    </ul>
-   </nav>
-  <hr>
-<!--  <div class='container'>-->
-   
-    
-    <div id="row1" class='row'>     
-         <div id="col">
-    
-         </div> 
-    </div>
-    //==============================
-    <div class='col colsearch'>
-      <input id='searchId'> 
-        <button class='someButton'> Search </button> 
-    </div>
-<!--</div>-->
-	
-	
-	
-	
+	<title>OctoTwitch</title>
+    <title>Twitch API</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<div class="background-animation-container">
+  <div class="background-gradient">  
+     
+  </div>
 </div>
-</div>
-</div>	
-	
-	<script src="script.js"></script>
-</body>
+    
+    <div class="container-fluid">
+      <div class="header">
+        <img src="logo.png" alt="Twitch TV Logo">
+      </div> 
+      <h1>STREAMERS</h1>
+      <div class="buttons">
+      <button id="all" type="button" class="btn btn-md">ALL</button>
+      <button id="online" type="button" class="btn btn-md">ONLINE</button>
+      <button id="offline" type="button" class="btn btn-md">OFFLINE</button>
+      </div>
 
+      <div class="row" id= "resultList">
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+  </body>
 </html>
+
+
+
+
+
+
+
+
